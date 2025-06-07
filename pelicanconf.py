@@ -36,3 +36,14 @@ THEME = os.path.join(os.path.dirname(__file__), 'theme')
 
 from datetime import datetime
 LAST_UPDATED = datetime.now().strftime('%Y-%m-%d')
+
+# Menu items for navbar
+MENUITEMS = (
+    ('Home', '/'),
+    ('About', '/pages/about.html'),
+    ('Update History', '/update-history.html'),
+    # Add more items as needed
+)
+
+# To only show these items, set DISPLAY_PAGES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = False
