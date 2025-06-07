@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+<header>
+    <h1>{{ SITENAME }}</h1>
+    <p class="last-updated">Last updated: {{ LAST_UPDATED }}</p>
+</header>
+
+<main>
+    <section class="intro">
+        <h2>Hello, I'm Aya</h2>
+        <p>{{ SITESUBTITLE }}</p>
+    </section>
+    
+    <section class="status">
+        <h2>Coming Soon</h2>
+        <p>This website is currently under construction.</p>
+        <p>In the meantime, you can find me on:</p>
+        <nav>
+            <ul class="social-links">
+                {% for name, url in LINKS %}
+                <li><a href="{{ url }}" target="_blank" rel="noopener noreferrer">{{ name }}</a></li>
+                {% endfor %}
+                {% for icon, url in SOCIAL %}
+                <li><a href="{{ url }}" target="_blank" rel="noopener noreferrer">
+                    {{ icon|title }}
+                </a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; {{ COPYRIGHT_YEAR }} {{ AUTHOR }}. All rights reserved.</p>
+</footer>
+{% endblock %}
