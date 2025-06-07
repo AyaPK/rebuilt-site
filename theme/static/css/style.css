@@ -21,7 +21,7 @@
 }
 
 body {
-    font-family: 'Open Sauce Mono', 'Courier Prime', monospace;
+    font-family: 'Open Sauce Mono', monospace;
     line-height: 1.8;
     color: var(--primary-color);
     background-color: var(--background-color);
@@ -238,4 +238,48 @@ footer {
     color: var(--text-muted);
     font-size: 0.9rem;
     margin-top: 0.5rem;
+}
+
+/* Style for PR body in update history */
+.pr-body {
+    font-size: 0.95em;
+    opacity: 0.7;
+    display: block;
+    margin: 0.5em 0 1.5em 1.5em;
+    padding-left: 1em;
+    border-left: 3px solid var(--accent-color);
+    color: var(--primary-color);
+    font-style: italic;
+    background: none;
+}
+
+/* Update History PR entry styling */
+.update-history-pr {
+    margin: 2.2em 0 2.2em 0;
+    padding: 1.2em 1.5em 1.2em 1.5em;
+    border-radius: 10px;
+    background: rgba(70, 35, 80, 0.18);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 2px 10px rgba(156, 39, 176, 0.07);
+    transition: box-shadow 0.2s;
+}
+
+.update-history-pr:hover {
+    box-shadow: 0 4px 24px rgba(156, 39, 176, 0.18);
+    background: rgba(70, 35, 80, 0.28);
+}
+
+.update-history-pr-title {
+    font-size: 1.08em;
+    font-weight: 600;
+    color: var(--accent-color);
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+.update-history-pr-meta {
+    font-size: 0.98em;
+    color: var(--text-muted);
+    margin-bottom: 0.7em;
+    display: block;
 }
