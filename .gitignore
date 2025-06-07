@@ -67,3 +67,25 @@ node_modules/
 
 # dataconnect generated files
 .dataconnect
+
+# Pelican
+# Pelican output and cache
+output/
+cache/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Pelican settings for drafts and plugins
+*.db
+*.sqlite
+*.mo
+*.pot
+
+# Pelican-generated files
+publishconf.py
+
+# Pelican plugins (if using submodules or local plugins)
+pelican-plugins/
+pelican-themes/
