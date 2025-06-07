@@ -1,4 +1,4 @@
-# Aya Stead's Pelican Site
+# Pelican Static Site
 
 This is a static website built with [Pelican](https://getpelican.com/) and Python, managed with [Poetry](https://python-poetry.org/). It features hot-reloading for local development, automated update history from GitHub PRs, and is deployable to Firebase Hosting.
 
