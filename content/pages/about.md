@@ -5,17 +5,15 @@ Status: hidden
 
 # About Me
 
-Hello! I'm Aya, a Senior Software Engineer and Technical Lead based in London. I'm passionate about building great software and leading teams to deliver high-quality products.
+I am currently working on building this site, using Pelican static site generation.
 
-## Skills
+## Header 1
 
-- **Languages**: Python, JavaScript, TypeScript, Go
-- **Technologies**: Cloud Computing, Microservices, Distributed Systems
-- **Leadership**: Technical Leadership, Team Management, Mentoring
+- **Subheading 1** More stuff here
+- **Subheading 2** Other stuff
+- **Subheading 2** Cats are pretty rad
 
-## Experience
+## Header 2
 
-- **Senior Software Engineer** - Current Position
-- **Previous Roles**: Various software engineering positions with increasing responsibility
-
-Feel free to reach out if you'd like to connect or discuss potential opportunities!
+- **Subheading 1** More???
+- **Subheading 2** Yep!
