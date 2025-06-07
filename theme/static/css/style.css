@@ -21,7 +21,7 @@
 }
 
 body {
-    font-family: 'Courier Prime', monospace;
+    font-family: 'Open Sauce Mono', 'Courier Prime', monospace;
     line-height: 1.8;
     color: var(--primary-color);
     background-color: var(--background-color);
@@ -115,6 +115,10 @@ header {
     border: 1px solid var(--border-color);
     box-shadow: 0 4px 25px rgba(156, 39, 176, 0.25);
     backdrop-filter: blur(8px);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sauce Mono', monospace;
 }
 
 h1 {
