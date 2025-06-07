@@ -2,7 +2,7 @@ import requests
 import os
 from datetime import datetime
 
-REPO = "ayapk/rebuilt-site"  # Change to your repo
+REPO = "AyaPK/rebuilt-site"  # Change to your repo
 TOKEN = os.environ.get("GITHUB_TOKEN")  # Set this in your workflow secrets for higher rate limits
 
 headers = {"Accept": "application/vnd.github+json"}
