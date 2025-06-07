@@ -17,6 +17,10 @@ jobs:
           echo "$HOME/.local/bin" >> $GITHUB_PATH
       - name: Install dependencies
         run: poetry install --no-root
+      - name: Fetch Update history
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: poetry run python scripts/fetch_update_history.py
       - name: Build site
         run: poetry run pelican content
       - uses: FirebaseExtended/action-hosting-deploy@v0
