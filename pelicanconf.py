@@ -24,7 +24,7 @@ LINKS = (
 # Social widget
 SOCIAL = (
     ('fa-brands fa-linkedin-in', 'LinkedIn', 'https://linkedin.com/in/aya-s-stead'),
-    ('fa-regular fa-envelope', 'Email me', 'mailto:aya.pk.contact@gmail.com'),
+    ('fa-regular fa-envelope', 'Email me', 'mailto:aya@ayasca.dev'),
     ('fa-brands fa-github', 'GitHub', 'https://github.com/ayapk'),
 )
 
