@@ -15,7 +15,6 @@ params = {"state": "closed", "per_page": 10, "sort": "updated", "direction": "de
 
 response = requests.get(url, headers=headers, params=params)
 response.raise_for_status()
-print(response.json())
 
 prs = [pr for pr in response.json() if pr["merged_at"]]
 

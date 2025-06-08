@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article class="content-page">
+    <header>
+        <h1>{{ page.title }}</h1>
+        {% if page.date %}
+        <p class="page-date">{{ page.date.strftime('%Y-%m-%d') }}</p>
+        {% endif %}
+    </header>
+    <section class="page-body">
+        {% for paragraph in page.content.split('<hr>') %}
+        {% if paragraph.strip() %}
+        <div class="content-card">
+            {{ paragraph | safe }}
+        </div>
+        {% endif %}
+        {% endfor %}
+    </section>
+</article>
+{% endblock %}

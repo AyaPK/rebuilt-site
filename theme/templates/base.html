@@ -2,6 +2,7 @@
 <html lang="{{ DEFAULT_LANG }}">
 <head>
     <link href="https://fonts.cdnfonts.com/css/open-sauce-one" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dcd4d38e30.js" crossorigin="anonymous"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ SITESUBTITLE }}">
@@ -39,5 +40,16 @@
             {% block content %}{% endblock %}
         </main>
     </div>
+    <footer>
+        <ul class="social-links">
+            {% for name, url in LINKS %}
+            <li><a href="{{ url }}" target="_blank" rel="noopener noreferrer">{{ name }}</a></li>
+            {% endfor %}
+            {% for icon, text, url in SOCIAL %}
+            <li>  <a href="{{ url }}" target="_blank" rel="noopener noreferrer"> <i class="{{icon}}"></i>  {{ text }}</a></li>
+            {% endfor %}
+        </ul>
+        <p>&copy; {{ COPYRIGHT_YEAR }} {{ AUTHOR }}. All rights reserved.</p>
+    </footer>
 </body>
 </html>

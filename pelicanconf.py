@@ -1,5 +1,6 @@
 AUTHOR = 'Aya Stead'
 SITENAME = 'Aya Stead'
+SITESUBTITLE = 'I like making cool things!'
 SITEURL = ""
 
 PATH = "content"
@@ -23,7 +24,7 @@ LINKS = (
 
 # Social widget
 SOCIAL = (
-    ('envelope', 'mailto:aya.pk.contact@gmail.com'),
+    ('fa-brands fa-github', 'Email me', 'mailto:aya.pk.contact@gmail.com'),
 )
 
 DEFAULT_PAGINATION = 10

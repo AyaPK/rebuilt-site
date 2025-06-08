@@ -21,15 +21,11 @@
                 {% for name, url in LINKS %}
                 <li><a href="{{ url }}" target="_blank" rel="noopener noreferrer">{{ name }}</a></li>
                 {% endfor %}
-                {% for icon, url in SOCIAL %}
-                <li><a href="{{ url }}" target="_blank" rel="noopener noreferrer">{{ icon|title }}</a></li>
+                {% for icon, text, url in SOCIAL %}
+                <li><a href="{{ url }}" target="_blank" rel="noopener noreferrer">{{ text }}</a></li>
                 {% endfor %}
             </ul>
         </nav>
     </section>
 </main>
-
-<footer>
-    <p>&copy; {{ COPYRIGHT_YEAR }} {{ AUTHOR }}. All rights reserved.</p>
-</footer>
 {% endblock %}
