@@ -46,7 +46,7 @@
             <li><a href="{{ url }}" target="_blank" rel="noopener noreferrer">{{ name }}</a></li>
             {% endfor %}
             {% for icon, text, url in SOCIAL %}
-            <li>  <a href="{{ url }}" target="_blank" rel="noopener noreferrer"> <i class="{{icon}}"></i>  {{ text }}</a></li>
+            <li><a href="{{ url }}" target="_blank" rel="noopener noreferrer"><i class="{{icon}}"></i>{{ text }}</a></li>
             {% endfor %}
         </ul>
         <p>&copy; {{ COPYRIGHT_YEAR }} {{ AUTHOR }}. All rights reserved.</p>

@@ -18,13 +18,14 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ('GitHub', 'https://github.com/ayapk'),
-    ('LinkedIn', 'https://linkedin.com/in/aya-s-stead'),
+
 )
 
 # Social widget
 SOCIAL = (
-    ('fa-brands fa-github', 'Email me', 'mailto:aya.pk.contact@gmail.com'),
+    ('fa-brands fa-linkedin-in', 'LinkedIn', 'https://linkedin.com/in/aya-s-stead'),
+    ('fa-regular fa-envelope', 'Email me', 'mailto:aya.pk.contact@gmail.com'),
+    ('fa-brands fa-github', 'GitHub', 'https://github.com/ayapk'),
 )
 
 DEFAULT_PAGINATION = 10
