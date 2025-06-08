@@ -80,7 +80,30 @@ body {
     background: rgba(199, 168, 255, 0.1);
     border-color: var(--accent-color);
     color: var(--accent-bright);
-    text-decoration: underline wavy;
+    text-decoration: none;
+}
+
+button {
+    color: var(--accent-color);
+    background: none;
+    border: 1px solid var(--accent-color);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: background 0.2s, color 0.2s, border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+    display: inline-block;
+    outline: none;
+}
+
+button:hover, button:focus {
+    background: rgba(156, 39, 176, 0.18);
+    color: var(--accent-bright);
+    border-color: var(--accent-bright);
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 2px 8px 0 rgba(156, 39, 176, 0.08);
 }
 
 @media (max-width: 768px) {
