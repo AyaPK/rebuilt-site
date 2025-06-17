@@ -44,6 +44,8 @@ MENUITEMS = (
     ('Home', '/'),
     ('About', '/pages/about.html'),
     ('Update History', '/update-history.html'),
+    ('Personal Projects', '/pages/personal-projects.html'),
+    ('Non-Coding Hobbies', '/pages/hobbies.html'),
     # Add more items as needed
 )
 
