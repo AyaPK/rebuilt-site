@@ -16,6 +16,7 @@ Status: hidden
 -----
 ## Slack Plays Pokémon
 **Located at**: [Github](https://github.com/AyaPK/slack-plays-pokemon)
+
 ![Slack Plays Pokémon preview image](https://img.ayasca.dev/slack-plays-pokemon.png)
 
 - A slack bot allowing users in a Slack server to play Pokémon together, one input at a time, voted democratically with reacts
