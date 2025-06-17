@@ -43,9 +43,10 @@ LAST_UPDATED = datetime.now().strftime('%Y-%m-%d')
 MENUITEMS = (
     ('Home', '/'),
     ('About', '/pages/about.html'),
-    ('Update History', '/update-history.html'),
     ('Personal Projects', '/pages/personal-projects.html'),
     ('Non-Coding Hobbies', '/pages/hobbies.html'),
+    ('', '#'),  # Empty item for spacing
+    ('Update History', '/update-history.html'),
     # Add more items as needed
 )
 
