@@ -1,0 +1,15 @@
+/* Game iframe container for game_demo.html */
+.game-iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.game-iframe-container iframe {
+    border: 2px solid var(--accent-color);
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+    background: #222;
+    min-width: 0;
+}

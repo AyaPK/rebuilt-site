@@ -48,9 +48,14 @@ body {
 }
 
 .main-content {
-    max-width: 800px;
+    max-width: 1200px;
     width: 100%;
     margin: 0;
+}
+.main-content .game-iframe-container {
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .sidenav ul {
