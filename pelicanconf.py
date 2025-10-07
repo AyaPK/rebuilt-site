@@ -44,7 +44,6 @@ MENUITEMS = (
     ('Home', '/'),
     ('About', '/pages/about.html'),
     ('Personal Projects', '/pages/personal-projects.html'),
-    ('Non-Coding Hobbies', '/pages/hobbies.html'),
     ('', '#'),  # Empty item for spacing
     ('Update History', '/update-history.html'),
     # Add more items as needed
